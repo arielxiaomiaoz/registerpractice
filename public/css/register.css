@@ -1,0 +1,59 @@
+.signup{
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 30vw;
+  height: 50vh;
+  margin-left: 26rem;
+  border: solid rgb(160, 160, 240) 1rem;
+  background-color: rgb(160, 160, 240);
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.textfield p input{
+  display: inline-block;
+  width: 20ch;
+}
+
+.textfield p label{
+  display: inline-block;
+  width: 9rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+
+abbr{
+  color: red;
+}
+
+form button{
+  font-size: 1.2rem;
+  font-family: Optima, sans-serif;
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+
+form button:hover{
+  color: rgb(255, 123, 0);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  /* shadow from https://www.w3schools.com/css/css3_buttons.asp */
+}
+
+@media (max-width: 600px) {
+  .signup{
+    width: 18rem;
+    margin-left: 1rem;
+  }
+}
